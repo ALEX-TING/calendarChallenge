@@ -1,0 +1,55 @@
+.container-fluid{
+  white-space: nowrap;
+}
+#timeColumn{
+  width: 100px;
+  height: 720px;
+  display: inline-block;
+  margin-right: 15px;
+}
+.hourDiv{
+  height: 30px;
+  text-align: right;
+}
+.ampm{
+  font-size: .7em;
+  color: #a6a6a6;
+}
+.halfDiv{
+  height: 30px;
+  text-align: right;
+}
+.halfLabel{
+  color: #a6a6a6;
+  font-size: .8em;
+}
+#calendar{
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 620px;
+  height: 720px;
+  background-color: #ECECEC;
+  display: inline-block;
+  white-space: nowrap;
+  margin-top: 2.75%;
+  border-left: 1px solid;
+  border-left-color: #d6d6d6;
+}
+.eventBlock{
+  border-left: 3px solid;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+  border-color: #d6d6d6;
+  border-left-color: #496da8;
+  padding-left: 8px;
+  padding-top: 5px;
+}
+.eventName{
+  color: #496da8;
+  font-weight: bolder;
+}
+.eventLocation{
+  font-size: .7em;
+  color: #a6a6a6;
+}
