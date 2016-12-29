@@ -1,6 +1,5 @@
 import React from 'react';
 import { render } from 'react-dom';
-import _ from 'underscore';
 
 class Calendar extends React.Component {
   constructor(props) {

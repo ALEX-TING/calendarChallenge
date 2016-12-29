@@ -10,7 +10,7 @@ class App extends React.Component {
     }
   }
 
-  componentDidMount() {
+  componentWillMount() {
     // get eventsObj from Firebase on component mount
     $.get('https://appcues-interviews.firebaseio.com/calendar/events.json')
       .done((eventsObj) => {
